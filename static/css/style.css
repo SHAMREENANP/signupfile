@@ -1,0 +1,39 @@
+.hd{
+    font-size: large;
+    color: rgb(6, 34, 144);
+    border: cadetblue;
+    
+    width: 420px;
+    text-align: center;
+    
+    
+    left: 35%;
+    }
+    h5{
+    font-size: large;
+    color: rgb(18, 17, 17);
+    border: cadetblue;
+    
+    width: 420px;
+    text-align: center;
+    
+    
+    left: 35%;
+    }
+    .container{
+                position: absolute;
+                left: 30%;
+                top: 10%;
+            }
+            .box {
+        width: 500px;
+        padding: 20px;
+        position: absolute;
+      
+        left: 50%;
+        background: #191919;
+        ;
+        text-align: center;
+        transition: 0.25s;
+        margin-top: .5px
+      }

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup -page</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  background: rgba(219, 221, 224, 0.9);
+  
+  font-family: "lato", sans-serif;
+  background-size: 1800px 900px;
+background-repeat: no-repeat;
+background-position: top;
+background-attachment: fixed;
+
+background-image: url("https://beaconinfo.tech/wp-content/uploads/2023/07/kisspng-robotics-and-mechatronics-wns-global-services-robot-cube-5a7cdc4876df54.8894565315181322964869.png");
+        
+        background-size: cover;
+        width: 100%;
+  height: auto;
+} 
+.hd{
+font-size: large;
+color: rgb(6, 34, 144);
+border: cadetblue;
+
+width: 420px;
+text-align: center;
+
+
+left: 35%;
+}
+h5{
+font-size: large;
+color: rgb(18, 17, 17);
+border: cadetblue;
+
+width: 420px;
+text-align: center;
+
+
+left: 35%;
+}
+.container{
+            position: absolute;
+            left: 30%;
+            top: 10%;
+        }
+        .box {
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+  
+    left: 50%;
+    background: #191919;
+    ;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: .5px
+  }
+</style>
+
+<body ><br><br>
+
+<div class="container">
+
+<div class="container"style="left:20%">
+
+<div class="row">
+    <div class="col-md-4">
+    
+        {% for message in messages %}
+        <h5>
+            <div class="alert alert-danger mt-5">
+                {{ message }}
+            </div>
+        </h5>
+            {% endfor %}
+    </div>
+</div>    </div>
+    <div class="hd">
+   
+<h1 ><b> ABCD COMPANY</b></h1>
+
+
+</div></div><br><br>
+</div></div>
+
+  
+</body>
+</html>
